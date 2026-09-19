@@ -1,0 +1,25 @@
+# Model files
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Temporary files
+*.log
+*.tmp
+.ipynb_checkpoints/
+
+# PDF papers
+*.pdf

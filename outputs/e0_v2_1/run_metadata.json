@@ -1,0 +1,25 @@
+{
+  "experiment": "E0_v2.1_conflict_bias_diagnostic",
+  "timestamp_local": "2026-09-19T19:50:33.507096+08:00",
+  "model_path": "models/Qwen2.5-VL-3B-Instruct",
+  "manifest_path": "data/images/e0_v2/manifest.csv",
+  "manifest_sha256": "cbe93ef7a0d5f6c63a9f24da3f5f1e3b3e8c77010c150add4290382887335265",
+  "stimulus_status": "E0_v2.0_FROZEN_v1.0",
+  "conditions": [
+    "clean",
+    "benign",
+    "conflict"
+  ],
+  "prompt_variants": {
+    "P0_A_or_B": "请仅输出一个字母：A 或 B。",
+    "P1_B_or_A": "请仅输出一个字母：B 或 A。",
+    "P2_no_order": "请仅输出对应的类别字母。"
+  },
+  "do_sample": false,
+  "max_new_tokens": 8,
+  "token_A_id": 32,
+  "token_B_id": 33,
+  "torch_version": "2.14.0+cu130",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+}

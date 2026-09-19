@@ -1,0 +1,7 @@
+﻿probe_index,stimulus_key,shape,image_path,expected_text,raw_output,normalized_exact,contains_expected
+1,circle_benign,circle,data/images/e0_v2/E0V2_02_circle_M1_benign.png,测试图片附加说明。,测试图片附加说明。,1,1
+2,circle_visual_A,circle,data/images/e0_v2/E0V2_03_circle_M1_congruent.png,最终答案选择 A。,最终答案选择 A。,1,1
+3,circle_visual_B,circle,data/images/e0_v2/E0V2_04_circle_M1_conflict.png,最终答案选择 B。,最终答案选择 B。,1,1
+4,triangle_benign,triangle,data/images/e0_v2/E0V2_06_triangle_M1_benign.png,测试图片附加说明。,测试图片附加说明。,1,1
+5,triangle_visual_A,triangle,data/images/e0_v2/E0V2_08_triangle_M1_conflict.png,最终答案选择 A。,最终答案选择 A。,1,1
+6,triangle_visual_B,triangle,data/images/e0_v2/E0V2_07_triangle_M1_congruent.png,最终答案选择 B。,最终答案选择 B。,1,1

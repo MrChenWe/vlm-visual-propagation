@@ -1,0 +1,139 @@
+﻿run_order,condition_type,condition_id,text_target,visual_target,text_level,visual_level,prompt,image_path,image_sha256,decode_mode,raw_output,final_choice,strict_format,visual_takeover,text_adoption,target_followed,timestamp
+1,conflict,conflict_TA_S3_VB_S1,A,B,S3,S1,"这是一个二分类任务。
+
+最终答案必须选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S1.png,ede6d8887f2c5710b7ea6d7d3b5eb1663766f36e15adc42485dfd82c0ec35f94,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:09.432032+08:00
+2,text_only,text_only_TB_S3,B,NONE,S3,NONE,"这是一个二分类任务。
+
+最终答案必须选择类别 B。
+
+请仅输出一个字母：A 或 B。",NONE,NONE,greedy_do_sample_false,B,B,1,NA,NA,1,2026-09-18T22:24:10.328948+08:00
+3,visual_only,visual_only_VB_S3,NONE,B,NONE,S3,"这是一个二分类任务。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S3.png,f57b53b17fcbb06b6197984a9edad58bd487e48321dff866807307ece2ef377c,greedy_do_sample_false,B,B,1,NA,NA,1,2026-09-18T22:24:11.791609+08:00
+4,conflict,conflict_TA_S3_VB_S3,A,B,S3,S3,"这是一个二分类任务。
+
+最终答案必须选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S3.png,f57b53b17fcbb06b6197984a9edad58bd487e48321dff866807307ece2ef377c,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:13.251567+08:00
+5,conflict,conflict_TB_S3_VA_S1,B,A,S3,S1,"这是一个二分类任务。
+
+最终答案必须选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S1.png,23724a099e14cebda2bb9659b7d46f6935e7c139cc665a1bfefcce6dbf7a4cf4,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:14.720187+08:00
+6,conflict,conflict_TA_S3_VB_S2,A,B,S3,S2,"这是一个二分类任务。
+
+最终答案必须选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S2.png,97077dcd0c1b6a96d11ea1c48369b10554f5efdf2693a4ef6dbe5d35fb81151d,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:16.184645+08:00
+7,text_only,text_only_TB_S2,B,NONE,S2,NONE,"这是一个二分类任务。
+
+最终答案请你选择类别 B。
+
+请仅输出一个字母：A 或 B。",NONE,NONE,greedy_do_sample_false,B,B,1,NA,NA,1,2026-09-18T22:24:17.064020+08:00
+8,visual_only,visual_only_VA_S3,NONE,A,NONE,S3,"这是一个二分类任务。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S3.png,7d66b5c3469c812f32d2a42ed0904a1cf6a43c637e1c2d78fdcc0807c250370f,greedy_do_sample_false,A,A,1,NA,NA,1,2026-09-18T22:24:18.530824+08:00
+9,conflict,conflict_TA_S1_VB_S3,A,B,S1,S3,"这是一个二分类任务。
+
+最终答案可以选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S3.png,f57b53b17fcbb06b6197984a9edad58bd487e48321dff866807307ece2ef377c,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:19.992700+08:00
+10,text_only,text_only_TA_S1,A,NONE,S1,NONE,"这是一个二分类任务。
+
+最终答案可以选择类别 A。
+
+请仅输出一个字母：A 或 B。",NONE,NONE,greedy_do_sample_false,A,A,1,NA,NA,1,2026-09-18T22:24:20.872797+08:00
+11,conflict,conflict_TA_S1_VB_S1,A,B,S1,S1,"这是一个二分类任务。
+
+最终答案可以选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S1.png,ede6d8887f2c5710b7ea6d7d3b5eb1663766f36e15adc42485dfd82c0ec35f94,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:22.336569+08:00
+12,conflict,conflict_TB_S2_VA_S1,B,A,S2,S1,"这是一个二分类任务。
+
+最终答案请你选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S1.png,23724a099e14cebda2bb9659b7d46f6935e7c139cc665a1bfefcce6dbf7a4cf4,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:23.802381+08:00
+13,conflict,conflict_TB_S3_VA_S2,B,A,S3,S2,"这是一个二分类任务。
+
+最终答案必须选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S2.png,7660b90e023ee4fd232f08f6ae37b88820a8989bfc82a8fcd9e8146f001e8cd8,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:25.267741+08:00
+14,conflict,conflict_TB_S2_VA_S3,B,A,S2,S3,"这是一个二分类任务。
+
+最终答案请你选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S3.png,7d66b5c3469c812f32d2a42ed0904a1cf6a43c637e1c2d78fdcc0807c250370f,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:26.732859+08:00
+15,visual_only,visual_only_VA_S1,NONE,A,NONE,S1,"这是一个二分类任务。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S1.png,23724a099e14cebda2bb9659b7d46f6935e7c139cc665a1bfefcce6dbf7a4cf4,greedy_do_sample_false,B,B,1,NA,NA,0,2026-09-18T22:24:28.197567+08:00
+16,conflict,conflict_TB_S3_VA_S3,B,A,S3,S3,"这是一个二分类任务。
+
+最终答案必须选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S3.png,7d66b5c3469c812f32d2a42ed0904a1cf6a43c637e1c2d78fdcc0807c250370f,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:29.665947+08:00
+17,conflict,conflict_TA_S2_VB_S1,A,B,S2,S1,"这是一个二分类任务。
+
+最终答案请你选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S1.png,ede6d8887f2c5710b7ea6d7d3b5eb1663766f36e15adc42485dfd82c0ec35f94,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:31.135121+08:00
+18,text_only,text_only_TB_S1,B,NONE,S1,NONE,"这是一个二分类任务。
+
+最终答案可以选择类别 B。
+
+请仅输出一个字母：A 或 B。",NONE,NONE,greedy_do_sample_false,B,B,1,NA,NA,1,2026-09-18T22:24:32.020474+08:00
+19,conflict,conflict_TA_S2_VB_S3,A,B,S2,S3,"这是一个二分类任务。
+
+最终答案请你选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S3.png,f57b53b17fcbb06b6197984a9edad58bd487e48321dff866807307ece2ef377c,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:33.488901+08:00
+20,conflict,conflict_TB_S1_VA_S2,B,A,S1,S2,"这是一个二分类任务。
+
+最终答案可以选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S2.png,7660b90e023ee4fd232f08f6ae37b88820a8989bfc82a8fcd9e8146f001e8cd8,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:34.954981+08:00
+21,text_only,text_only_TA_S3,A,NONE,S3,NONE,"这是一个二分类任务。
+
+最终答案必须选择类别 A。
+
+请仅输出一个字母：A 或 B。",NONE,NONE,greedy_do_sample_false,A,A,1,NA,NA,1,2026-09-18T22:24:35.834065+08:00
+22,conflict,conflict_TB_S1_VA_S3,B,A,S1,S3,"这是一个二分类任务。
+
+最终答案可以选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S3.png,7d66b5c3469c812f32d2a42ed0904a1cf6a43c637e1c2d78fdcc0807c250370f,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:37.303887+08:00
+23,conflict,conflict_TB_S2_VA_S2,B,A,S2,S2,"这是一个二分类任务。
+
+最终答案请你选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S2.png,7660b90e023ee4fd232f08f6ae37b88820a8989bfc82a8fcd9e8146f001e8cd8,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:38.777910+08:00
+24,visual_only,visual_only_VA_S2,NONE,A,NONE,S2,"这是一个二分类任务。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S2.png,7660b90e023ee4fd232f08f6ae37b88820a8989bfc82a8fcd9e8146f001e8cd8,greedy_do_sample_false,A,A,1,NA,NA,1,2026-09-18T22:24:40.243595+08:00
+25,conflict,conflict_TA_S1_VB_S2,A,B,S1,S2,"这是一个二分类任务。
+
+最终答案可以选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S2.png,97077dcd0c1b6a96d11ea1c48369b10554f5efdf2693a4ef6dbe5d35fb81151d,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:41.710079+08:00
+26,text_only,text_only_TA_S2,A,NONE,S2,NONE,"这是一个二分类任务。
+
+最终答案请你选择类别 A。
+
+请仅输出一个字母：A 或 B。",NONE,NONE,greedy_do_sample_false,A,A,1,NA,NA,1,2026-09-18T22:24:42.592104+08:00
+27,conflict,conflict_TA_S2_VB_S2,A,B,S2,S2,"这是一个二分类任务。
+
+最终答案请你选择类别 A。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S2.png,97077dcd0c1b6a96d11ea1c48369b10554f5efdf2693a4ef6dbe5d35fb81151d,greedy_do_sample_false,B,B,1,1,0,NA,2026-09-18T22:24:44.059278+08:00
+28,visual_only,visual_only_VB_S1,NONE,B,NONE,S1,"这是一个二分类任务。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S1.png,ede6d8887f2c5710b7ea6d7d3b5eb1663766f36e15adc42485dfd82c0ec35f94,greedy_do_sample_false,B,B,1,NA,NA,1,2026-09-18T22:24:45.524856+08:00
+29,conflict,conflict_TB_S1_VA_S1,B,A,S1,S1,"这是一个二分类任务。
+
+最终答案可以选择类别 B。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_A_S1.png,23724a099e14cebda2bb9659b7d46f6935e7c139cc665a1bfefcce6dbf7a4cf4,greedy_do_sample_false,B,B,1,0,1,NA,2026-09-18T22:24:46.999516+08:00
+30,visual_only,visual_only_VB_S2,NONE,B,NONE,S2,"这是一个二分类任务。
+
+请仅输出一个字母：A 或 B。",data/images/e0/visual_B_S2.png,97077dcd0c1b6a96d11ea1c48369b10554f5efdf2693a4ef6dbe5d35fb81151d,greedy_do_sample_false,B,B,1,NA,NA,1,2026-09-18T22:24:48.465002+08:00

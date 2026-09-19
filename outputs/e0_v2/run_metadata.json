@@ -1,0 +1,15 @@
+{
+  "experiment": "E0_v2.0",
+  "stimulus_status": "FROZEN_v1.0",
+  "timestamp_local": "2026-09-19T19:24:03.406571+08:00",
+  "model_path": "models/Qwen2.5-VL-3B-Instruct",
+  "manifest_path": "data/images/e0_v2/manifest.csv",
+  "manifest_sha256": "cbe93ef7a0d5f6c63a9f24da3f5f1e3b3e8c77010c150add4290382887335265",
+  "run_seed": 20260919,
+  "decision_max_new_tokens": 8,
+  "perception_max_new_tokens": 64,
+  "do_sample": false,
+  "torch_version": "2.14.0+cu130",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+}
